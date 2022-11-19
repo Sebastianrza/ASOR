@@ -1,6 +1,8 @@
 # Práctica 2.2 Sistemas de Ficheros
 
-## ************** Ejercicio 1 **************
+## Creación y atributos de ficheros
+
+### ************** Ejercicio 1 **************
 
 `$man ls`
 
@@ -22,7 +24,7 @@
 
 --color=auto=never: Colorea (o no) la salida del ls según el tipo de archivo.
 
-## ************** Ejercicio 2 **************
+### ************** Ejercicio 2 **************
 
 `$ls -ld`
 
@@ -36,13 +38,13 @@ rmx_grupo: ninguno.
 
 rmx_resto: ninguno.
 
-## ************** Ejercicio 3 **************
+### ************** Ejercicio 3 **************
 
 `$chmod 645 file`
 
  `$chmod u+rw-x,g+r-wr,o+rx-w file` 
  
- ## ************** Ejercicio 4 **************
+### ************** Ejercicio 4 **************
  
  `$mkdir test`
  
@@ -52,26 +54,26 @@ rmx_resto: ninguno.
  
  resultado: bash: cd:test/: Permiso denegado
  
- ## ************** Ejercicio 5 **************
+### ************** Ejercicio 5 **************
 
 
- ## ************** Ejercicio 6 **************
+### ************** Ejercicio 6 **************
  
  `$umask 727`
  
- ## ************** Ejercicio 7 **************
+### ************** Ejercicio 7 **************
  
  
- ## ************** Ejercicio 8 **************
+### ************** Ejercicio 8 **************
  
  `$ls -i`
  
   `$man stat`
   
-  ## ************** Ejercicio 9 **************
+### ************** Ejercicio 9 **************
   
   
-  ## ************** Ejercicio 10 **************
+### ************** Ejercicio 10 **************
 
   a) 
     
@@ -105,9 +107,24 @@ rmx_resto: ninguno.
   c)
 
       $rm -rf lficheroduro #No pasa nada
-      $rm -rf archivosim #No pasa nada
+      $rm -rf ficherosS #No pasa nada
       $ln lfichero lficheroduro
-      $ln -s fichero
       $rm -rf fichero #Se corrompe el enlace simbólico.
       
-  
+   
+### ************** Ejercicio 11 **************
+      
+##  Redirecciones y duplicación de descriptores
+
+### ************** Ejercicio 12 **************
+### ************** Ejercicio 13 **************
+
+##  Cerrojos de ficheros
+
+### ************** Ejercicio 14 **************
+### ************** Ejercicio 15 **************
+### ************** Ejercicio 16 **************
+
+##  Directorios
+
+### ************** Ejercicio 17 **************

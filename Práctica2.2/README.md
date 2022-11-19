@@ -56,6 +56,7 @@ rmx_resto: ninguno.
  
 ### ************** Ejercicio 5 **************
 
+[Ejercicio 5](https://github.com/Sebastianrza/ASOR/blob/main/Pr%C3%A1ctica2.2/Creacion_y_Atributos_ficheros/ej5.c)
 
 ### ************** Ejercicio 6 **************
  
@@ -63,7 +64,8 @@ rmx_resto: ninguno.
  
 ### ************** Ejercicio 7 **************
  
- 
+[Ejercicio 7](https://github.com/Sebastianrza/ASOR/blob/main/Pr%C3%A1ctica2.2/Creacion_y_Atributos_ficheros/ej7.c)
+
 ### ************** Ejercicio 8 **************
  
  `$ls -i`
@@ -71,6 +73,8 @@ rmx_resto: ninguno.
   `$man stat`
   
 ### ************** Ejercicio 9 **************
+  
+[Ejercicio 9](https://github.com/Sebastianrza/ASOR/blob/main/Pr%C3%A1ctica2.2/Creacion_y_Atributos_ficheros/ej9.c)
   
   
 ### ************** Ejercicio 10 **************
@@ -118,9 +122,11 @@ rmx_resto: ninguno.
 
 ### ************** Ejercicio 12 **************
 
+[Ejercicio 12](https://github.com/Sebastianrza/ASOR/blob/main/Pr%C3%A1ctica2.2/Redireccion_y_Duplicacion_descriptores/ej12.c)
 
 ### ************** Ejercicio 13 **************
 
+[Ejercicio 13](https://github.com/Sebastianrza/ASOR/blob/main/Pr%C3%A1ctica2.2/Redireccion_y_Duplicacion_descriptores/ej13.c)
 
 ls > dirlist 2>&1: Redirecciona la salida estándar a dirlist y la salida de errores la redirecciona a la 1 que corresponde a dirlist. Ambas salidas se van a ver en dirlist.
 
@@ -160,6 +166,7 @@ ls 2>&1 > dirlist: Redirecciona la salida de error a la salida estándar y la sa
 
 ### ************** Ejercicio 15 **************
 
+[Ejercicio 15](https://github.com/Sebastianrza/ASOR/blob/main/Pr%C3%A1ctica2.2/Redireccion_y_Duplicacion_descriptores/ej15.c)
 
 ### ************** Ejercicio 16 **************
 
@@ -170,3 +177,5 @@ Sirve para crear cerrojos en scripst de shell.
 ##  Directorios
 
 ### ************** Ejercicio 17 **************
+
+[Ejercicio 17](https://github.com/Sebastianrza/ASOR/blob/main/Pr%C3%A1ctica2.2/Directorios/ej17.c)

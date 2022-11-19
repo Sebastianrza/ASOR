@@ -85,5 +85,27 @@ rmx_resto: ninguno.
     
     $ls -li
     
-    
+   <img src="ejercicio10.png">
+   
+   Se observa que los inodos para cada fichero son diferentes y que los enlaces simbólicos creados vienen representado con una "i" y se muestra a donde apunta.
  
+  b)
+     
+     $touch lfichero
+     $mkdir ldirectorio
+     $ln ldirectorio ldirectorioDuro
+     $ln lfichero lficheroduro
+     $ls -li
+     
+   <img src"ejercicio10B.png">
+   No se pueden crear enlaces duros en directorios. Además en la imagen se puede observar que tienen el mismo inodo.
+   
+  c)
+
+      $rm -rf lficheroduro #No pasa nada
+      $rm -rf archivosim #No pasa nada
+      $ln lfichero lficheroduro
+      $ln -s fichero
+      $rm -rf fichero #Se corrompe el enlace simbólico.
+      
+  

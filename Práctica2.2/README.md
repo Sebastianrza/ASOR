@@ -97,7 +97,8 @@ rmx_resto: ninguno.
      $ln lfichero lficheroduro
      $ls -li
      
-   <img src"ejercicio10B.png">
+   <img src="ejercicio10B.png">
+   
    No se pueden crear enlaces duros en directorios. Además en la imagen se puede observar que tienen el mismo inodo.
    
   c)

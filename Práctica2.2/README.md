@@ -75,13 +75,13 @@ rmx_resto: ninguno.
 
   a) 
     
-    $touch archivo
+    $touch fichero
     
-    $mkdir directorio
+    $mkdir directorioP
     
-    $ln -s archivo archivosim
+    $ln -s fichero ficheroS
     
-    $ln -s directorio directoriosim
+    $ln -s directorioP directorioS
     
     $ls -li
     
@@ -91,16 +91,17 @@ rmx_resto: ninguno.
  
   b)
      
-     $touch lfichero
-     $mkdir ldirectorio
-     $ln ldirectorio ldirectorioDuro
-     $ln lfichero lficheroduro
+     $ln directorio ldirectorioDuro
+     $ln fichero lficheroduro
      $ls -li
      
    <img src="ejercicio10B.png">
    
    No se pueden crear enlaces duros en directorios. Además en la imagen se puede observar que tienen el mismo inodo.
    
+   `$stat fichero`
+   
+   <img src="stat.png">
   c)
 
       $rm -rf lficheroduro #No pasa nada

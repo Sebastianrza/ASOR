@@ -117,7 +117,14 @@ rmx_resto: ninguno.
 ##  Redirecciones y duplicación de descriptores
 
 ### ************** Ejercicio 12 **************
+
+
 ### ************** Ejercicio 13 **************
+
+
+ls > dirlist 2>&1: Redirecciona la salida estándar a dirlist y la salida de errores la redirecciona a la 1 que corresponde a dirlist. Ambas salidas se van a ver en dirlist.
+
+ls 2>&1 > dirlist: Redirecciona la salida de error a la salida estándar y la salida estándar a dirlist, los errores se van a ver por pantalla y la salida normal en el fichero dirlist.
 
 ##  Cerrojos de ficheros
 
@@ -152,6 +159,8 @@ rmx_resto: ninguno.
 8.- Byte donde acaba el bloqueo del fichero.
 
 ### ************** Ejercicio 15 **************
+
+
 ### ************** Ejercicio 16 **************
 
 `$man flock`

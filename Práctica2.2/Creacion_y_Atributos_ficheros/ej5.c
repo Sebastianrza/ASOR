@@ -15,6 +15,7 @@ int main(){
     if(d != -1){
         printf("fichero creado. \n");
         printf("Descriptor = %i \n", d);
+        close(d);
     }else{
         printf("error al crear el fichero.\n");
     }

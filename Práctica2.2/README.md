@@ -154,6 +154,10 @@ rmx_resto: ninguno.
 ### ************** Ejercicio 15 **************
 ### ************** Ejercicio 16 **************
 
+`$man flock`
+
+Sirve para crear cerrojos en scripst de shell.
+
 ##  Directorios
 
 ### ************** Ejercicio 17 **************

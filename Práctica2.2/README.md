@@ -1,0 +1,89 @@
+# Práctica 2.2 Sistemas de Ficheros
+
+## ************** Ejercicio 1 **************
+
+`$man ls`
+
+-a: Muestra todos los archivos (incluidos los ocultos, "." y "..").
+
+-l: Muestra la lista con todos los detalles (Permisos, autores, bytes, fecha de creación de cada archivo).
+
+-d: Muestra la lista de directorios (".").
+
+-h: Muestra los tamaños del archivo en K, M, G (Es necesario: -l o -s).
+
+-i: Muestra el inodo asociado a cada archivo.
+
+-R: Muestra recursivamente todo lo que hay en los directorios.
+
+-1: Muestra un archivo por línea.
+
+-F: Clasifica la salida (con /=>@|).
+
+--color=auto=never: Colorea (o no) la salida del ls según el tipo de archivo.
+
+## ************** Ejercicio 2 **************
+
+`$ls -ld`
+
+drwx------. 20 cursoredes cursoredes 4096 Nov 19 12:08 .
+
+Tipo: Directorio.
+
+rmx_propietario: lectura, escritura y ejecución.
+
+rmx_grupo: ninguno.
+
+rmx_resto: ninguno.
+
+## ************** Ejercicio 3 **************
+
+`$chmod 645 file`
+
+ `$chmod u+rw-x,g+r-wr,o+rx-w file` 
+ 
+ ## ************** Ejercicio 4 **************
+ 
+ `$mkdir test`
+ 
+ `$chmod -x test`
+ 
+ `$cd test`
+ 
+ resultado: bash: cd:test/: Permiso denegado
+ 
+ ## ************** Ejercicio 5 **************
+
+
+ ## ************** Ejercicio 6 **************
+ 
+ `$umask 727`
+ 
+ ## ************** Ejercicio 7 **************
+ 
+ 
+ ## ************** Ejercicio 8 **************
+ 
+ `$ls -i`
+ 
+  `$man stat`
+  
+  ## ************** Ejercicio 9 **************
+  
+  
+  ## ************** Ejercicio 10 **************
+
+  a) 
+    
+    $touch archivo
+    
+    $mkdir directorio
+    
+    $ln -s archivo archivosim
+    
+    $ln -s directorio directoriosim
+    
+    $ls -li
+    
+    
+ 

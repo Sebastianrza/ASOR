@@ -117,6 +117,8 @@ rmx_resto: ninguno.
       
    
 ### ************** Ejercicio 11 **************
+
+[Ejercicio 11](https://github.com/Sebastianrza/ASOR/blob/main/Pr%C3%A1ctica2.2/Creacion_y_Atributos_ficheros/ej11.c)
       
 ##  Redirecciones y duplicación de descriptores
 

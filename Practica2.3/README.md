@@ -64,6 +64,7 @@ b) 1000
 [ej5](https://github.com/Sebastianrza/ASOR/blob/main/Practica2.3/Grupos_de_Procesos_sesiones/ej5.c)
 
 *********************** **Ejercicio 6** ***********************
+
 [ej6](https://github.com/Sebastianrza/ASOR/blob/main/Practica2.3/Grupos_de_Procesos_sesiones/ej6.c)
 
 ¿Qué pasa si el padre termina antes que el hijo?
@@ -110,7 +111,7 @@ $kill -l #Lista todas las señales.
 
 Todas las señales del sistema:
 
-![Lista de Señales](listas.png)
+<img src="listas.png">
 
 *********************** **Ejercicio 10** ***********************
 

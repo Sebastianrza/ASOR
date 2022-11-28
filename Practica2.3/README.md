@@ -111,7 +111,7 @@ $kill -l #Lista todas las señales.
 
 Todas las señales del sistema:
 
-<img src="listas.png">
+<img src="lista.png">
 
 *********************** **Ejercicio 10** ***********************
 

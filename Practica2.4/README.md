@@ -42,7 +42,7 @@ $echo "Test" > tuberia
 *Terminal 1*
 <pre>
 <code>$gcc -o ej5 ejercicio5.c
-$./ej2
+$./ej5
 </code></pre>
 
 

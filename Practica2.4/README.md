@@ -37,13 +37,14 @@ $echo "Test" > tuberia
 
 *********************** **Ejercicio 5** ***********************
 
+[Ejercicio 5](https://github.com/Sebastianrza/ASOR/blob/main/Practica2.4/Multiplexacion_Sincrona_ES/ejercicio5.c)
+
 *Terminal 1*
 <pre>
-<code>$gcc -o ej2 ej2.c
+<code>$gcc -o ej5 ejercicio5.c
 $./ej2
 </code></pre>
 
-[Ejercicio 5](https://github.com/Sebastianrza/ASOR/blob/main/Practica2.4/Multiplexacion_Sincrona_ES/ejercicio5.c)
 
 *Terminal 2*
 <pre>
